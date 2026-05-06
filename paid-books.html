@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Library | GRIK</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">GRIK<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="free-books.html">Free Books</a></li>
+            <li><a href="paid-books.html" class="active">Paid Books</a></li>
+            <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+        </ul>
+    </nav>
+
+    <section class="library-section">
+        <div class="search-container glass-card">
+            <h2>Premium Collection</h2>
+            <input type="text" id="search-bar" placeholder="Search premium books or authors...">
+        </div>
+
+        <div id="books-container" class="books-grid">
+            <p style="text-align: center; width: 100%;">Loading premium books...</p>
+        </div>
+    </section>
+
+    <script src="js/paid-library.js"></script>
+</body>
+</html>

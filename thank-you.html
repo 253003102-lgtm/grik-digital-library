@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | GRIK</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">GRIK<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="free-books.html">Free Books</a></li>
+            <li><a href="paid-books.html">Paid Books</a></li>
+            <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+        </ul>
+    </nav>
+
+    <section class="library-section" style="height: calc(100vh - 80px); justify-content: center;">
+        <div class="glass-card" style="width: 100%; max-width: 700px;">
+            <h2 style="color: #00d2ff; margin-bottom: 10px;">Payment Successful!</h2>
+            <p style="margin-bottom: 30px; color: #b0c4de;">Thank you for your purchase. Here are your access links:</p>
+            
+            <div id="purchased-books" style="text-align: left;">
+                <p>Loading your books...</p>
+            </div>
+
+            <div style="margin-top: 40px;">
+                <a href="index.html" class="btn btn-outline">Return to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/thank-you.js"></script>
+</body>
+</html>

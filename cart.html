@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | GRIK</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">GRIK<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="free-books.html">Free Books</a></li>
+            <li><a href="paid-books.html">Paid Books</a></li>
+            <li><a href="cart.html" class="active">Cart <span id="cart-count">0</span></a></li>
+        </ul>
+    </nav>
+
+    <section class="library-section">
+        <div class="glass-card" style="width: 100%; max-width: 800px; text-align: left;">
+            <h2 style="text-align: center; margin-bottom: 30px;">Your Cart</h2>
+            
+            <div id="cart-container"></div>
+
+            <div class="cart-summary" id="cart-summary" style="display: none;">
+                <hr style="border-color: rgba(255,255,255,0.1); margin: 20px 0;">
+                <h3 style="margin-bottom: 20px; text-align: right;">Subtotal: $<span id="subtotal" style="color: #00d2ff;">0.00</span></h3>
+                <button id="checkout-btn" class="btn btn-primary" style="width: 100%;">Proceed to Payment</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
